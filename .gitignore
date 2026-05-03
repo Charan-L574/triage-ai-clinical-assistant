@@ -1,0 +1,15 @@
+# TriageAI .gitignore
+.env
+*.db
+*.log
+triageai.log*
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+rag/disease_index/
+*.index
+*.faiss
+.DS_Store
+unused/

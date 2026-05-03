@@ -1,0 +1,41 @@
+# TriageAI — Python dependencies
+# Install: pip install -r requirements.txt
+# scispacy model: pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_core_sci_sm-0.5.4.tar.gz
+
+# ── Web framework ──────────────────────────────────────────────────────────────
+fastapi>=0.111.0
+uvicorn[standard]>=0.29.0
+httpx>=0.27.0
+
+# ── Frontend ───────────────────────────────────────────────────────────────────
+streamlit>=1.35.0
+
+# ── Data validation ────────────────────────────────────────────────────────────
+pydantic>=2.7.0
+
+# ── AI APIs ───────────────────────────────────────────────────────────────────
+huggingface-hub>=0.23.0
+groq>=0.9.0
+google-genai>=1.0.0
+
+# ── NLP ───────────────────────────────────────────────────────────────────────
+spacy>=3.7.0
+scispacy>=0.5.4
+# Run after install:
+# pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_core_sci_sm-0.5.4.tar.gz
+
+# ── Vector search ─────────────────────────────────────────────────────────────
+faiss-cpu>=1.8.0
+numpy>=1.26.0
+
+# ── Database ───────────────────────────────────────────────────────────────────
+sqlalchemy>=2.0.0
+aiosqlite>=0.20.0
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+python-dotenv>=1.0.0
+requests>=2.32.0
+pandas>=2.2.0
+
+# ── Visualization (Streamlit charts) ──────────────────────────────────────────
+plotly>=5.22.0
